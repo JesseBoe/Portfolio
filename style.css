@@ -1,0 +1,163 @@
+body{
+    background-image: url("./images/image3.jpg");
+    background-size: 100%;
+    background-color: rgb(31, 28, 35);
+    background-repeat: no-repeat;
+}
+.content{
+    text-align: center;
+    text-shadow:  0 0.05rem 0.1rem rgba(0, 0, 0, .5);
+}
+.cover{
+    position: relative;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+.header{
+    display: block;
+    height: 46px;
+    margin-bottom: 36%;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.headerTextSide{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-right: 11px;
+    margin-left: 11px;
+    border-style: solid;
+    border-color: white;
+    -webkit-transition: border-bottom .1s; /* For Safari 3.1 to 6.0 */
+    transition: border-bottom .1s;
+}
+.headerTextSide:hover{
+    border-bottom: 4px;
+    border-style: solid;
+    border-color: white;
+}
+.headerTextMain{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+.mainText{
+    font-size: 48px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.mainSubText{
+    margin-top: 16px;
+    font-size: 32px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: auto;
+}
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.lastNav{
+    margin-right: 4px;
+}
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    padding: 18px;
+    margin-top: 33%;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: auto;
+    transition: text-shadow .4s;
+}
+.footer:hover{
+    text-shadow:  0px 0px 10px rgb(192, 192, 192), 0px 0px 16px rgb(192, 192, 192);
+}
+.about{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.7em;
+}
+.mt{
+    margin-top: 34%;
+}
+.aboutHeader{
+    font-size: 48px;
+    line-height: 2em;
+}
+.portfolioText{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 18px;
+}
+.portfolioCard{
+    width: 49%;
+    height: auto;
+    margin-top: 16px;
+    margin-left: auto;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(44, 44, 44);
+}
+.portrait{
+    position: relative;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 96%;
+}
+.portCardPicture {
+    position: relative;
+    
+    width: 100%;
+    height: auto;
+    max-height: 320px;
+    max-width: 320px;
+}
+.socialLinks{
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+i{
+    text-shadow:  0 0px 3px rgba(255, 255, 255, 0.3);
+    transition: text-shadow .4s;
+}
+i:hover{
+    text-shadow:  0px 0px 10px rgb(192, 192, 192), 0px 0px 16px rgb(255, 255, 255);
+}
+
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
