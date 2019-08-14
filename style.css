@@ -242,7 +242,7 @@ a.nostyle:visited {
 
 @media only screen and (max-width: 550px) {
   .about{
-    font-size: 14px;
+    font-size: 12px;
   }
   .porfolioImageSmall {
       flex: 0 0 180px; 
