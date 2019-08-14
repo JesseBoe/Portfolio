@@ -131,6 +131,16 @@ body{
     border-width: 1px;
     background-color: rgb(44, 44, 44);
 }
+.porfolioImageSmall {
+    flex: 0 0 294px; 
+    align-self: center; 
+}
+.borderRight {
+    border-right: 1px solid white;
+}
+.borderLeft {
+    border-left: 1px solid white;
+}
 .portrait{
     position: relative;
     margin-top: 6px;
@@ -211,6 +221,9 @@ a.nostyle:visited {
   .cover{
     width: 95%;
   }
+  .porfolioImageSmall {
+      flex: 0 0 250px; 
+  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -220,5 +233,8 @@ a.nostyle:visited {
   }
   .cover{
     width: 95%;
+  }
+  .porfolioImageSmall {
+      flex: 0 0 200px; 
   }
 }
