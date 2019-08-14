@@ -229,12 +229,19 @@ a.nostyle:visited {
 @media only screen and (max-width: 650px) {
   .about{
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.4em;
+    font-weight: 500;
   }
   .cover{
     width: 95%;
   }
   .porfolioImageSmall {
       flex: 0 0 200px; 
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .about{
+    font-size: 14px;
   }
 }
