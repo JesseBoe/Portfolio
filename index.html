@@ -11,87 +11,169 @@
 </head>
 <body>
     <div class="content">
+        <div class="headerImage">
+            <img class="headerSize" src="./images/image3.jpg">
+        </div>
         <div class="cover">
-            <div class="header clearfix">
+            <div style="padding: 200px 0px">
+                <div class="center">
+                    <img src="./images/me3.png">
+                </div> 
+                <div class="mainText" style="padding: 20px 0px" style="height: 80px">
+                    Hi, my name is Jesse Boe!
+                </div>
+                <div class="mainSubText" style="height: 80px">
+                    I'm a full stack developer and a self taught game developer with a passion for code. Feel free to check out my latest projects!
+                </div>
             </div>
-            <div class="mainText">
-                Hey, my name is Jesse Boe.
-            </div>
-            <div class="mainSubText">
-                I'm a full stack developer with a passion for code. Please check out my latest projects!
-            </div>
-            <div class="footer">
+            <div class="footer" style="padding-top: 90px">
                 <span>Learn More About Me</span>
                 <br>
                 <i class="fa fas fa-chevron-down" style="margin-top: 6px"></i>
             </div>
 
-            <div class="about mt">
-                <span class = "aboutHeader">About Me</span> <br>
-                <p>My name is Jesse Boe, a full stack developer residing in the seattle area. My intrest in technology sparked at a young age when I began to teach myself about game development. Currently I am enrolled in the University of Washington's Coding Bootcamp.</p>
-                <br>
-                <span class="aboutHeader">Experience</span> <br>
-                <p>I am proficient in coding with Javascript and C#, however I have dabbled in other coding languages out of curiosity. Other technologies I am profient in are Node, Html, Css, Jquery, Gitbash, Firebase, Unity and Bootstrap.</p>
-                <span class="aboutHeader">Projects</span>
+            <div class="about" style="margin-top: 100px">
+                <div style="margin-top: 100px">
+                    <div class="aboutHeader">About Me</div>
+                    <p>I began to teach myself how to program at a young age. I would look up tutorials about C# and game development in
+                        Unity. It became clear to me that I loved the creative aspect of programming and designing apps. Recently, I had the
+                        privlege of being apart of the University of Washington's Full Stack Web Development Coding Bootcamp.</p>
+                </div>
+                <div style="margin-top: 10px">
+                    <div class="aboutHeader">Experience</div>
+                    <p>I am proficient in coding with Javascript, HTML, CSS and C#, however I have dabbled in other coding languages such as
+                        Python, Lua and Java. Other technologies I am proficent in are Node, Express, React, MongoDB, SQL, Jquery,
+                        Handlebars, Bash, Firebase, Unity, Bootstrap, and Websockets.</p>
+                </div>
             </div>
 
-            <div class="portfolioContainer clearfix">
-                <div class="portfolioCard float-left">
-                    <div class="portrait">
-                        <img class="portCardPicture" src="./images/placeholder2.png" alt="">
-                        <a href="https://github.com/JesseBoe/GroupProject">
-                        <i class="fa fab fa-github" style="position: absolute; color: black; z-index: 1; right: 22px; bottom: 0px; font-size: 48px"></i>
-                        </a>
-                        <a href="https://jesseboe.github.io/GroupProject/">
-                        <i class="fa fas fa-link" style="position: absolute; color: black; z-index: 1; right: 70px; bottom: 0px; font-size: 44px"></i>
-                        </a>
+            <div class="about" style="margin-top: 100px">
+                <div class="aboutHeader">Projects</div>
+                <div>
+                    <div style="display: flex; flex-direction: row; border: 1px solid white; border-bottom-width: 0px; justify-content: center">
+                        <p>Dino Must Die</p>
                     </div>
-                    <div class = "portfolioText">Tastes & Tunes</div>
-                </div>
-                <div class="portfolioCard float-right">
-                    <div class="portrait">
-                        <img class="portCardPicture" src="./images/placeholder1.png" alt="">
-                        <a href="https://github.com/JesseBoe/RockPaperScissors">
-                        <i class="fa fab fa-github" style="position: absolute; color: black; z-index: 1; right: 22px; bottom: 0px; font-size: 48px"></i>
-                        </a>
-                        <a href="https://jesseboe.github.io/RockPaperScissors/">
-                        <i class="fa fas fa-link" style="position: absolute; color: black; z-index: 1; right: 70px; bottom: 0px; font-size: 44px"></i>
-                        </a>
+                    <div style="display: flex; flex-direction: row; border: 1px solid white;">
+                        <div style="flex: 0 0 294px; align-self: center; border-right: 1px solid white;">
+                            <img src="./images/GIF.gif">
+                        </div>
+                        <div style="align-self: center;">
+                            <div style="margin: 0px 10px;">
+                                <p>
+                                    Dino Must Die is a 2D platformer built with the Unity game engine. It features custom physics using raycasts and vector maths giving the player much more precision when compared to Unity's stock controller. It also has collectable power-ups, enemies and tricky puzzles!
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class = "portfolioText">Rock Papper Sissors</div>
-                </div>
-                <div class="portfolioCard float-left">
-                    <div class="portrait">
-                        <img class="portCardPicture" src="./images/placeholder3.png" alt="">
 
-                        <a href="https://github.com/JesseBoe/WordGuess"> 
-                            <i class="fa fab fa-github" style="position: absolute; color: white; z-index: 1; right: 22px; bottom: 0px; font-size: 48px"></i>
-                        </a>
-                        <a href="https://jesseboe.github.io/WordGuess/"> 
-                            <i class="fa fas fa-link" style="position: absolute; color: white; z-index: 1; right: 70px; bottom: 0px; font-size: 44px"></i>
-                        </a>
+                    <div style="display: flex; flex-direction: row; border: 1px solid white; border-top-width: 0px;">
+                        <div style="align-self: center;">
+                            <div style="margin: 0px 10px;">
+                                <p>
+                                    Invite your friends to play along with you. The game can connect to a Node.js server through a Websocket, allowing you to even play online!
+                                </p>
+                            </div>
+                        </div>
+                        <div style="flex: 0 0 294px; align-self: center; border-left: 1px solid white;">
+                            <img src="./images/GIF3.gif">
+                        </div>
                     </div>
-                    <div class = "portfolioText">Word Guess Game</div>
-                </div>
-                <div class="portfolioCard float-right">
-                    <div class="portrait">
-                        <img class="portCardPicture" src="./images/placeholder4.png" alt="">
-                        <a href="https://github.com/JesseBoe/BombJump"> <i class="fa fab fa-github"
-                            style="position: absolute; color: black; z-index: 1; right: 22px; bottom: 0px; font-size: 48px"></i></a>
+
+                    <div style="display: flex; flex-direction: row; border: 1px solid white; border-top-width: 0px;">
+                        <div style="flex: 0 0 294px; align-self: center; border-right: 1px solid white;">
+                            <img src="./images/GIF8.gif">
+                        </div>
+                        <div style="align-self: center;">
+                            <div style="margin: 0px 10px;">
+                                <p>
+                                    The game can get pretty challenging, so be prepared! This game was solely developed by me, however some of the pixel art comes from free online resources. That being said, I owe a huge thanks to all the great tutorials out there on the internet!
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class = "portfolioText">Dino Must Die</div>
                 </div>
             </div>
-            <div class="about">
-                <span class = "aboutHeader">Contact Me</span> <br>
-                <p>If you wish to contact me for any reason, just send an email to: JesseBoeWork@gmail.com</p>
-                <br>
+
+            <div class="about" style="margin-top: 100px">
+                <div>
+                    <div
+                        style="display: flex; flex-direction: row; border: 1px solid white; border-bottom-width: 0px; justify-content: center">
+                        <p>Say What?</p>
+                    </div>
+                    <div style="display: flex; flex-direction: row; border: 1px solid white;">
+                        <div style="flex: 0 0 294px; align-self: center; border-right: 1px solid white;">
+                            <img src="./images/SayWhatLogo.png">
+                        </div>
+                        <div style="align-self: center;">
+                            <div style="margin: 0px 10px;">
+                                <p>
+                                    Say what? is a browser game built using the MERN (Mongo Express React Node) stack. It plays much like wheel of fortune, but with popular phrases from pop culture. It features user authentication, websockets, stat tracking and an ingame chat! We made this for our last group project at the UW bootcamp.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        style="display: flex; flex-direction: row; border: 1px solid white; border-top-width: 0px; justify-content: flex-end;">
+                        <div style="align-self: center; justify-items: center;">
+                            <div style="margin: 0px 10px;">
+                                <p>
+                                    Any action a user takes such as guessing a letter, spinning the wheel, or attempting to solve the puzzle ends up being verified by the server. It was for this reason that it was important that we kept most of the logic off of the client side.
+                                </p>
+                            </div>
+                        </div>
+                        <div style="flex: 0 0 294px; align-self: center; border-left: 1px solid white;">
+                            <img style="width: 294px; height: auto;" src="./images/GIF032.gif">
+                        </div>
+                    </div>
+            
+                    <div style="display: flex; flex-direction: row; border: 1px solid white; border-top-width: 0px;">
+                        <div style="flex: 0 0 294px; align-self: center; border-right: 1px solid white;">
+                            <img style="width: 294px; height: auto;" src="./images/GIF983.gif">
+                        </div>
+                        <div style="align-self: center;">
+                            <div style="margin: 0px 10px;">
+                                <p>
+                                    Websockets can be used to keep our game real time. Noramlly when using just http, you would have to use a technique called polling, where the client asks the server if there is any new information for them at a set time interval. With sockets you create a two way connection where at any time both client and server can send data through. Many popular websites such as twitter and gmail are using websockets.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: row; border: 1px solid white; border-top-width: 0px;">
+                        <div style="flex: 0 0 730px; align-self: center;">
+                            <img style="width: 730px; height: auto;" src="./images/GIF854.gif">
+                        </div>
+                        <div style="flex: 0 0 218px; align-self: center; border-left: 1px solid white;">
+                            <img src="./images/GIF555.gif">
+                        </div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: row; border: 1px solid white; border-top-width: 0px;">
+                        <div style="flex: 0 0 294px; align-self: center; border-right: 1px solid white;">
+                            <img style="width: 294px; height: auto;" src="./images/GIF9943.gif">
+                        </div>
+                        <div style="align-self: center;">
+                            <div style="margin: 10px 10px;">
+                                <p>
+                                    For authentication we used Passport.js. Passport allows you to quickly implement many different ways for the user to log in. They call these different ways 'strategies'. We decided to use both a local strategy and the google-oauth strategy. This is quite nice because going through the trouble of making a new account can be a bit tedious, but signing in with google is quite easy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="socialLinks">
+
+            <div class="about" style="margin-top: 60px">
+                <div class="aboutHeader">Contact</div>
+                <p>
+                    If you wish to contact me, you can reach me at JesseBoeWork@gmail.com.
+                </p>
+            </div>
+            <div class="socialLinks" style="padding: 16px 20px">
                 <a href="https://github.com/JesseBoe">
                     <i class="fa fab fa-github-square" style="color: white; z-index: 1; float: left; margin-left: 33%; font-size: 44px"></i>
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/jesse-boe-28ba39179/">
                     <i class="fa fab fa-linkedin" style="color: white; z-index: 1; float: right; margin-right: 33%; font-size: 44px"></i>
                 </a>
             </div>
