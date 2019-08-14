@@ -244,4 +244,7 @@ a.nostyle:visited {
   .about{
     font-size: 14px;
   }
+  .porfolioImageSmall {
+      flex: 0 0 180px; 
+  }
 }
