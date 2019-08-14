@@ -107,7 +107,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     color: white;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 1.7em;
 }
 .aboutHeader{
@@ -179,4 +179,26 @@ a.nostyle:link {
 a.nostyle:visited {
     text-decoration: inherit;
     color: inherit;
+}
+
+@media only screen and (max-width: 1600px) {
+  .cover{
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .cover{
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .about{
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+  .cover{
+    width: 95%;
+  }
 }
