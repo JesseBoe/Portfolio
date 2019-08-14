@@ -202,3 +202,23 @@ a.nostyle:visited {
     width: 95%;
   }
 }
+
+@media only screen and (max-width: 750px) {
+  .about{
+    font-size: 18px;
+    line-height: 1.3em;
+  }
+  .cover{
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .about{
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  .cover{
+    width: 95%;
+  }
+}
