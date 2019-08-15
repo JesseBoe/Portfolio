@@ -4,6 +4,9 @@ body{
     background-color: rgb(31, 28, 35);
     background-repeat: no-repeat;
 }
+.mainPadding {
+    padding: 200px 0px;
+}
 .headerImage {
     position: absolute;
     z-index: -1;
@@ -195,11 +198,17 @@ a.nostyle:visited {
   .cover{
     width: 60%;
   }
+  .mainPadding {
+      padding: 180px 0px;
+  }
 }
 
 @media only screen and (max-width: 1350px) {
   .cover{
     width: 75%;
+  }
+  .mainPadding {
+      padding: 140px 0px;
   }
 }
 
@@ -223,6 +232,9 @@ a.nostyle:visited {
   }
   .porfolioImageSmall {
       flex: 0 0 250px; 
+  }
+  .mainPadding {
+      padding: 110px 0px;
   }
 }
 
