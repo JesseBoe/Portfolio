@@ -1,189 +1,66 @@
-body{
-    /* background-image: url("./images/image3.jpg");
-    background-size: 100%; */
-    background-color: rgb(31, 28, 35);
-    background-repeat: no-repeat;
+body {
+    background-color: rgb(240, 252, 252);
 }
-.mainPadding {
-    padding: 200px 0px;
-}
-.headerImage {
-    position: absolute;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-}
-.headerSize {
-    object-fit: cover;
-    width: 100%;
-    height: 1200px;
-    position: relative;
-}
-.content{
-    text-align: center;
-    text-shadow:  0 0.05rem 0.1rem rgba(0, 0, 0, .5);
-}
-.cover{
-    position: relative;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1rem;
-}
-.header{
-    display: block;
-    height: 46px;
-}
-.float-left{
-    float: left;
-}
-.float-right{
-    float: right;
-}
-.headerTextSide{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 6px;
-    margin-right: 11px;
-    margin-left: 11px;
-    border-style: solid;
-    border-color: white;
-    -webkit-transition: border-bottom .1s; /* For Safari 3.1 to 6.0 */
-    transition: border-bottom .1s;
-}
-.headerTextSide:hover{
-    border-bottom: 4px;
-    border-style: solid;
-    border-color: white;
-}
-.headerTextMain{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 32px;
-    font-weight: bold;
-    margin-left: 4px;
-}
-.mainText{
-    font-size: 48px;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+
+/* jumbotron */
+
+.main {
+    font-family: "eurostile",
+    "system-ui",
+    sans-serif;
+    font-size: 38px;
     font-weight: 700;
-    text-shadow:  0px 0px 8px rgb(32, 32, 32), 0px 0px 12px rgb(32, 32, 32);
+    color: #141c3a;
 }
-.mainSubText{
-    margin-top: 16px;
-    font-size: 32px;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+
+.main-2 {
+    font-family: "eurostile",
+        "system-ui",
+        sans-serif;
+    font-size: 24px;
     font-weight: 500;
-    margin-bottom: auto;
-    text-shadow:  0px 0px 8px rgb(32, 32, 32), 0px 0px 12px rgb(32, 32, 32);
+    color: #090c14;
 }
-.clearfix {
-  overflow: auto;
-}
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.lastNav{
-    margin-right: 4px;
-}
-.footer {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-    margin-bottom: auto;
-    transition: text-shadow .4s;
-}
-.footer:hover{
-    text-shadow:  0px 0px 10px rgb(192, 192, 192), 0px 0px 16px rgb(192, 192, 192);
-}
-.about{
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 1.7em;
-}
-.aboutHeader{
-    font-size: 48px;
-    line-height: 2.5em;
-}
-.portfolioText{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 22px;
-    font-weight: bold;
-    padding: 18px;
-}
-.portfolioCard{
-    width: 49%;
-    height: auto;
-    margin-top: 16px;
-    margin-left: auto;
-    border-color: white;
-    border-style: solid;
-    border-width: 1px;
-    background-color: rgb(44, 44, 44);
-}
-.porfolioImageSmall {
-    flex: 0 0 294px; 
-    align-self: center; 
-}
-.borderRight {
-    border-right: 1px solid white;
-}
-.borderLeft {
-    border-left: 1px solid white;
-}
-.portrait{
-    position: relative;
-    margin-top: 6px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 96%;
-}
-.portCardPicture {
-    position: relative;
+
+.content-divider{
+    background-color: #343A40;
     width: 100%;
-    height: auto;
-    max-height: 320px;
-    max-width: 320px;
-}
-.socialLinks{
-    margin-top: 10px;
-    margin-bottom: 60px;
-}
-.center {
-    margin-left: auto;
-    margin-right: auto;
-}
-img{
-    user-drag: none; 
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
 
-i{
-    text-shadow:  0 0px 3px rgba(255, 255, 255, 0.3);
-    transition: text-shadow .4s;
-}
-i:hover{
-    text-shadow:  0px 0px 10px rgb(192, 192, 192), 0px 0px 16px rgb(255, 255, 255);
+/* Skills */
+.skill-icon {
+    font-size: 40px;
+    padding: 28px;
+    color: coral;
 }
 
+/* Navbar */
+.social-link {
+    color: white;
+    font-size: 42px;
+}
+
+.nav-link-container {
+    width: 200px;
+}
+
+.overlay-card {
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5),
+    0 0 0 1px #E6ECF8;
+}
+
+/* fontawesome */
+.social-link {
+    text-shadow: 0 0px 1px rgba(255, 255, 255, 0.3);
+    transition: text-shadow .16s;
+}
+
+.social-link:hover {
+    text-shadow: 0px 0px 1px rgb(192, 192, 192), 0px 0px 6px rgb(255, 255, 255);
+}
+
+
+/* general */
 a.nostyle:link {
     text-decoration: inherit;
     color: inherit;
@@ -192,62 +69,4 @@ a.nostyle:link {
 a.nostyle:visited {
     text-decoration: inherit;
     color: inherit;
-}
-
-@media only screen and (max-width: 1600px) {
-  .cover{
-    width: 60%;
-  }
-  .mainPadding {
-      padding: 180px 0px;
-  }
-}
-
-@media only screen and (max-width: 1350px) {
-  .cover{
-    width: 75%;
-  }
-  .mainPadding {
-      padding: 140px 0px;
-  }
-}
-
-@media only screen and (max-width: 1050px) {
-  .about{
-    font-size: 20px;
-    line-height: 1.5em;
-  }
-  .cover{
-    width: 95%;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  .about{
-    font-size: 18px;
-    line-height: 1.3em;
-  }
-  .cover{
-    width: 95%;
-  }
-  .porfolioImageSmall {
-      flex: 0 0 250px; 
-  }
-  .mainPadding {
-      padding: 110px 0px;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  .about{
-    font-size: 14px;
-    line-height: 1.4em;
-    font-weight: 500;
-  }
-  .cover{
-    width: 95%;
-  }
-  .porfolioImageSmall {
-      flex: 0 0 200px; 
-  }
 }
