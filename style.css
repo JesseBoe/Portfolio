@@ -13,6 +13,21 @@ body {
     color: #141c3a;
 }
 
+.project-link {
+    font-size: 32px;
+    position: absolute;
+    bottom: 16;
+    left: 18;
+}
+
+.project-link2 {
+    font-size: 32px;
+    position: absolute;
+    bottom: 20;
+    left: 54;
+}
+
+
 .main-2 {
     font-family: "eurostile",
         "system-ui",
@@ -25,6 +40,10 @@ body {
 .content-divider{
     background-color: #343A40;
     width: 100%;
+}
+
+.card-text {
+    margin-bottom: 36px;
 }
 
 /* Skills */
